@@ -40,6 +40,6 @@ export const data: Data = [
     message: "637 Points - 87% Correct",
     personImg: lura,
     arrowImg: up,
-    id: "abcd",
+    id: "abcde",
   },
 ];
