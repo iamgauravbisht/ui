@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import main from "@/assets/tesladashboard/main.png";
-import close from "@/assets/home//close.svg";
+import close from "@/assets/home/close.svg";
 import openLink from "@/assets/home/link.svg";
 import { useRef } from "react";
 
