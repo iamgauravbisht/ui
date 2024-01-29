@@ -5,7 +5,15 @@ import thisal from "@/assets/tesladashboard/thisal.png";
 import lura from "@/assets/tesladashboard/lura.png";
 import helen from "@/assets/tesladashboard/helen.png";
 
-export const data = [
+type Data = {
+  name: string;
+  message: string;
+  personImg: any;
+  arrowImg: any;
+  id: string;
+}[];
+
+export const data: Data = [
   {
     name: "Jesse Thomas",
     message: "637 Points - 98% Correct",

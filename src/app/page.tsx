@@ -1,6 +1,7 @@
 import person from "@/assets/home/person.png";
 import Image from "next/image";
 import Link from "next/link";
+import Ui from "@/components/home/uibox";
 
 export default function Home() {
   return (
@@ -13,13 +14,13 @@ export default function Home() {
           I am a full-stack web developer
         </h2>
         <Link href="/hireme">
-          <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-semibold shadow-lg shadow-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/50 px-4 py-2 rounded-lg mt-4">
+          <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-semibold shadow-md shadow-cyan-500/50 hover:shadow-xl hover:shadow-cyan-500/50 px-4 py-2 rounded-lg mt-4">
             Hire Me
           </button>
         </Link>
       </div>
-      <div className="w-4/5 h-[500px] bg-black cursor-pointer">
-        display projects
+      <div className="w-4/5 h-[500px] flex flex-row flex-wrap justify-center cursor-pointer">
+        <Ui />
       </div>
       <Image
         src={person}
