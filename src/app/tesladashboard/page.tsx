@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "Tesla Dashboard",
 };
 
-import Graph from "@/assets/tesladashboard/Graph.png";
+import Graph from "/assets/tesladashboard/Graph.png";
 import Image from "next/image";
 const dataOne = [
   {
@@ -33,15 +33,15 @@ const dataOne = [
 const dataTwo = [
   {
     heading: "Starting Knowledge",
-    img: Graph,
+    img: "/assets/tesladashboard/Graph.png",
   },
   {
     heading: "Current Knowledge",
-    img: Graph,
+    img: "/assets/tesladashboard/Graph.png",
   },
   {
     heading: "Knowledge Gain",
-    img: Graph,
+    img: "/assets/tesladashboard/Graph.png",
   },
 ];
 
@@ -73,7 +73,13 @@ function page() {
                 <div className="flex flex-col gap-4 min-w-[100px]" key={i}>
                   <p className="text-sm">{item.heading}</p>
                   <div className="flex flex-row items-center">
-                    <Image src={item.img} alt="img" priority={true} />
+                    <Image
+                      src={item.img}
+                      alt="img"
+                      priority={true}
+                      width={100}
+                      height={70}
+                    />
                   </div>
                 </div>
               );

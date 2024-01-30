@@ -5,7 +5,7 @@ type Props = {
   data: {
     name: string;
     message: string;
-    arrowImg: any;
+    arrowImg: string;
     id: string;
   }[];
 };
@@ -28,7 +28,13 @@ export default function groupsLeaderboard({ data }: Props) {
             </div>
             <div className="flex flex-row gap-2 items-end">
               <p className="font-semibold">{i + 1}</p>
-              <Image src={item.arrowImg} alt="up/down" className="mb-1" />
+              <Image
+                src={item.arrowImg}
+                alt="up/down"
+                className="mb-1"
+                width={10}
+                height={10}
+              />
             </div>
           </div>
         );

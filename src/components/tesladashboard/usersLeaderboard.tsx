@@ -4,8 +4,8 @@ type Props = {
   data: {
     name: string;
     message: string;
-    personImg: any;
-    arrowImg: any;
+    personImg: string;
+    arrowImg: string;
     id: string;
   }[];
 };
@@ -23,7 +23,7 @@ export default function usersLeaderboard({ data }: Props) {
             key={item.id}
           >
             <div className="flex flex-row gap-3 items-center">
-              <Image src={item.personImg} alt={"img"} />
+              <Image src={item.personImg} alt={"img"} width={35} height={35} />
               <div className="flex flex-col ">
                 <p className="font-semibold ">{item.name}</p>
                 <p className="font-normal  text-gray-500 ">{item.message}</p>
@@ -31,7 +31,13 @@ export default function usersLeaderboard({ data }: Props) {
             </div>
             <div className="flex flex-row gap-2 items-end">
               <p className="font-semibold">{i + 1}</p>
-              <Image src={item.arrowImg} alt="up/down" className="mb-1" />
+              <Image
+                src={item.arrowImg}
+                alt="up/down"
+                className="mb-1"
+                width={10}
+                height={10}
+              />
             </div>
           </div>
         );

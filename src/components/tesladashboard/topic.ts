@@ -7,7 +7,7 @@ import social from "@/assets/tesladashboard/social_media.png";
 
 export type topicData = {
   title: string;
-  img: any;
+  img: string;
   percentage: number; // between 1-100
   id: string;
 };
@@ -21,19 +21,19 @@ export const datasetOne: dataset = {
   data: [
     {
       title: "Food Safety",
-      img: food,
+      img: "/assets/tesladashboard/food.png",
       percentage: 74,
       id: "owurwuio",
     },
     {
       title: "Compliance Basics Procedures",
-      img: compliance,
+      img: "/assets/tesladashboard/compliance.png",
       percentage: 52,
       id: "lajsfldjs",
     },
     {
       title: "Company Networking",
-      img: company,
+      img: "/assets/tesladashboard/company_networking.png",
       percentage: 36,
       id: "lajkildjs",
     },
@@ -45,19 +45,19 @@ export const datasetTwo: dataset = {
   data: [
     {
       title: "Covid Protocol",
-      img: covid,
+      img: "/assets/tesladashboard/covid_protocol.png",
       percentage: 95,
       id: "owurwuweer",
     },
     {
       title: "Cyber Security Basics",
-      img: cyber,
+      img: "/assets/tesladashboard/cyber_security.png",
       percentage: 92,
       id: "lajsfsfldjs",
     },
     {
       title: "Social Media Policy",
-      img: social,
+      img: "/assets/tesladashboard/social_media.png",
       percentage: 89,
       id: "lajsfoous",
     },

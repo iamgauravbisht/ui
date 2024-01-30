@@ -5,8 +5,8 @@ import Ui from "@/components/home/uibox";
 
 export default function Home() {
   return (
-    <main className="min-h-screen min-w-screen bg-[url('../assets/home/bg.png')] bg-cover bg-left bg-no-repeat relative flex flex-col items-center">
-      <div className="flex flex-col justify-center w-full items-center bg-[url('../assets/home/planet.png')] bg-no-repeat py-7">
+    <main className="min-h-screen min-w-screen bg-home bg-cover bg-left bg-no-repeat relative flex flex-col items-center">
+      <div className="flex flex-col justify-center w-full items-center bg-planet bg-no-repeat py-7">
         <h1 className="text-5xl font-bold mr-7 ml-2  sm:text-center bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text text-transparent inline-block drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
           Welcome to my UI project website
         </h1>
