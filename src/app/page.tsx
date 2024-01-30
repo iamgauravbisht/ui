@@ -1,4 +1,4 @@
-import person from "@/assets/home/person.png";
+// import person from "@/assets/home/person.png";
 import Image from "next/image";
 import Link from "next/link";
 import Ui from "@/components/home/uibox";
@@ -23,7 +23,7 @@ export default function Home() {
         <Ui />
       </div>
       <Image
-        src={person}
+        src="/assets/home/person.png"
         alt="bg"
         priority={true}
         className="absolute bottom-0 right-0 w-[25%] md:w-[15%] "
