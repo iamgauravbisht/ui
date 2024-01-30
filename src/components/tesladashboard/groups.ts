@@ -1,5 +1,5 @@
-import up from "/assets/tesladashboard/UpArrow.png";
-import down from "/assets/tesladashboard/DownArrow.png";
+// import up from "/assets/tesladashboard/UpArrow.png";
+// import down from "/assets/tesladashboard/DownArrow.png";
 
 type Data = {
   name: string;

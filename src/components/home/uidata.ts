@@ -1,2 +1,2 @@
-import main from "@/assets/tesladashboard/main.png";
-export const data = [{}];
+// import main from "@/assets/tesladashboard/main.png";
+// export const data = [{}];

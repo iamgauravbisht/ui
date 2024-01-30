@@ -1,9 +1,9 @@
-import up from "../../assets/tesladashboard/UpArrow.png";
-import down from "../../assets/tesladashboard/DownArrow.png";
-import thomas from "../../assets/tesladashboard/thomas.png";
-import thisal from "../../assets/tesladashboard/thisal.png";
-import lura from "../../assets/tesladashboard/lura.png";
-import helen from "../../assets/tesladashboard/helen.png";
+// import up from "../../assets/tesladashboard/UpArrow.png";
+// import down from "../../assets/tesladashboard/DownArrow.png";
+// import thomas from "../../assets/tesladashboard/thomas.png";
+// import thisal from "../../assets/tesladashboard/thisal.png";
+// import lura from "../../assets/tesladashboard/lura.png";
+// import helen from "../../assets/tesladashboard/helen.png";
 
 type Data = {
   name: string;

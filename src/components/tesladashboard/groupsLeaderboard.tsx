@@ -1,5 +1,5 @@
 import Image from "next/image";
-import up from "@/assets/tesladashboard/UpArrow.png";
+// import up from "@/assets/tesladashboard/UpArrow.png";
 
 type Props = {
   data: {

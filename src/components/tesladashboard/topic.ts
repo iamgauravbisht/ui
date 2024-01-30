@@ -1,9 +1,9 @@
-import compliance from "@/assets/tesladashboard/compliance.png";
-import food from "@/assets/tesladashboard/food.png";
-import company from "@/assets/tesladashboard/company_networking.png";
-import cyber from "@/assets/tesladashboard/cyber_security.png";
-import covid from "@/assets/tesladashboard/covid_protocol.png";
-import social from "@/assets/tesladashboard/social_media.png";
+// import compliance from "@/assets/tesladashboard/compliance.png";
+// import food from "@/assets/tesladashboard/food.png";
+// import company from "@/assets/tesladashboard/company_networking.png";
+// import cyber from "@/assets/tesladashboard/cyber_security.png";
+// import covid from "@/assets/tesladashboard/covid_protocol.png";
+// import social from "@/assets/tesladashboard/social_media.png";
 
 export type topicData = {
   title: string;
