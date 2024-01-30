@@ -53,12 +53,12 @@ export default function Sidebar() {
       </button>
 
       <div
-        className="flex-1 px-3 py-4 w-56 flex flex-col justify-between overflow-y-auto bg-gray-50 dark:bg-gray-800 "
+        className="flex-1 px-3 py-4 w-56 flex flex-col justify-between overflow-y-auto bg-gray-50 "
         ref={modalRef}
       >
         <Link
           href="/tesladashboard"
-          className="flex items-center p-2 mx-4 mb-6 mt-4 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+          className="flex items-center p-2 mx-4 mb-6 mt-4 text-gray-900 rounded-lg  hover:bg-gray-100  group"
         >
           <Image
             src="/assets/tesladashboard/TESLA.png"
@@ -72,7 +72,7 @@ export default function Sidebar() {
           <li>
             <Link
               href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group"
             >
               <Image
                 src="/assets/tesladashboard/Bulb.png"
@@ -80,7 +80,7 @@ export default function Sidebar() {
                 width={20}
                 height={20}
               />
-              <span className="inline-flex items-center justify-center px-2 ms-2 text-md font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">
+              <span className="inline-flex items-center justify-center px-2 ms-2 text-md font-medium text-gray-800 bg-gray-100 rounded-full ">
                 Report
               </span>
             </Link>
@@ -88,7 +88,7 @@ export default function Sidebar() {
           <li>
             <Link
               href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group"
             >
               <Image
                 src="/assets/tesladashboard/library.png"
@@ -97,7 +97,7 @@ export default function Sidebar() {
                 height={20}
               />
               <span className="flex-1 ms-3 whitespace-nowrap">Library</span>
-              <span className="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
+              <span className="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full ">
                 3
               </span>
             </Link>
@@ -105,7 +105,7 @@ export default function Sidebar() {
           <li>
             <Link
               href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group"
             >
               <Image
                 src="/assets/tesladashboard/People.png"
@@ -119,7 +119,7 @@ export default function Sidebar() {
           <li>
             <Link
               href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group"
             >
               <Image
                 src="/assets/tesladashboard/Activities.png"
@@ -135,7 +135,7 @@ export default function Sidebar() {
           <li>
             <Link
               href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group"
             >
               <Image
                 src="/assets/tesladashboard/Bulb.png"
@@ -149,7 +149,7 @@ export default function Sidebar() {
           <li>
             <Link
               href="#"
-              className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-100  group"
             >
               <Image
                 src="/assets/tesladashboard/Settings.png"
