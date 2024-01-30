@@ -17,14 +17,14 @@ export const data: Data = [
   {
     name: "Jesse Thomas",
     message: "637 Points - 98% Correct",
-    personImg: "/assets/tesladashboard/thomas.png",
+    personImg: "/assets/tesladashboard/Thomas.png",
     arrowImg: "/assets/tesladashboard/UpArrow.png",
     id: "a",
   },
   {
     name: "Thisal Mathiyazhagan",
     message: "637 Points - 89% Correct",
-    personImg: "/assets/tesladashboard/thisal.png",
+    personImg: "/assets/tesladashboard/Thisal.png",
     arrowImg: "/assets/tesladashboard/DownArrow.png",
     id: "ab",
   },
