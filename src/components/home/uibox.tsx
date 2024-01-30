@@ -39,7 +39,14 @@ export default function Uibox() {
   return (
     <div className="w-48 h-fit m-2 border rounded-lg  hover:shadow-xl hover:shadow-cyan-500/50 ease-out duration-300 hover:border-none flex flex-col items-center">
       <Link href="/tesladashboard">
-        <Image src="/assets/tesladashboard/main.png" alt="tesla" />
+        <Image
+          src="/assets/tesladashboard/main.png"
+          alt="tesla"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="w-full h-auto"
+        />
       </Link>
       <div className="flex flex-row gap-2 justify-center items-center w-full">
         <p className="text-white text-sm font-bold ">Tesla Dashboard</p>
@@ -84,7 +91,14 @@ export default function Uibox() {
             />
           </button>
         </div>
-        <Image src="/assets/tesladashboard/main.png" alt="tesla" />
+        <Image
+          src="/assets/tesladashboard/main.png"
+          alt="tesla"
+          width="0"
+          height="0"
+          sizes="100vw"
+          className="w-full h-auto"
+        />
       </div>
     </div>
   );

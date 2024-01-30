@@ -27,6 +27,9 @@ export default function Home() {
         alt="bg"
         priority={true}
         className="absolute bottom-0 right-0 w-[25%] md:w-[15%] "
+        width="0"
+        height="0"
+        sizes="100vw"
       />
     </main>
   );
