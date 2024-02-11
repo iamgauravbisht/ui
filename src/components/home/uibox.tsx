@@ -46,6 +46,7 @@ export default function Uibox() {
           height="0"
           sizes="100vw"
           className="w-full h-auto"
+          priority={true}
         />
       </Link>
       <div className="flex flex-row gap-2 justify-center items-center w-full">
@@ -98,6 +99,7 @@ export default function Uibox() {
           height="0"
           sizes="100vw"
           className="w-full h-auto"
+          priority={true}
         />
       </div>
     </div>
